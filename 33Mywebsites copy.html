@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="13astyle.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Ibrahim | Creative Portfolio</title>
+  <style>
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ff9a9e;
+    }
+    #hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    #hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #222;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: #222;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ff9a9e;
+      color: #222;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    #projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+      width: 220px;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+    a.link-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #222;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a.link-btn:hover {
+      background: #ff9a9e;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Syed Ibrahim</h1>
+    <p> Java Full Stack Developer | Creative Coder</p>
+    <nav>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <img src="image.png" alt="Syed Ibrahim Photo">
+    <h2>Welcome to my creative world 🚀</h2>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card"><a href="15Atm.html">ATM Machine App</a></div>
+    <div class="card"><a href="8tictactoegame.html">Tic Tac Toe</a></div>
+        <div class="card"><a href="10tictactoegame.html">Tic Tac Toe</a></div>
+                <div class="card"><a href="13tictactoeindex.html">Tic Tac Toe</a></div>
+
+                <div class="card"><a href="2dictioner.html">Dictionary</a></div>
+                <div class="card"><a href="2index.html">HTML</a></div>
+                <div class="card"><a href="4index.html">HTML</a></div>
+               <div class="card"><a href="index.html">Basic of Html</a></div>
+                <div class="card"><a href="11bike.html">Bike Game</a></div>
+               <div class="card"><a href="17calculartor.html">Calculator</a></div>
+              <div class="card"><a href="4.html">My Portfolio</a></div>
+               <div class="card"><a href="7.html">Flipcart Clone</a></div>
+
+
+
+
+    <div class="card"><a href="Amazon Webpage Clone/index.html">Amazon Clone</a></div>
+        <div class="card"><a href="Amazon Webpage Clone/1.html">Amazon Clone</a></div>
+
+    <div class="card"><a href="chat-app.html">Chat Application</a></div>
+    <div class="card"><a href="flipflop.html">Flip-Flop Circuit Demo</a></div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Syed Ibrahim, a Full Stack Developer skilled in Java, HTML, CSS, JS, Node.js, React, Git/GitHub, and more. I love building creative projects, interactive games, and modern portfolio sites.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><strong>Education:</strong> B.Tech Computer Science Engineering (CGPA 8.0)</p>
+    <p><strong>10th:</strong> 75% | <strong>12th:</strong> 78%</p>
+    <p><strong>Strengths:</strong> Creative coding, problem-solving, teamwork</p>
+    <p><strong>Weaknesses:</strong> Sometimes perfectionist, overthinks design</p>
+    <p><strong>Hobbies:</strong> Cricket, coding games, animations</p>
+    <a href="RESUME123.pdf" class="link-btn" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: syed@example.com</p>
+    <a href="https://github.com/account" class="link-btn">GitHub</a>
+    <a href="https://linkedin.com/in/syedibrahim" class="link-btn">LinkedIn</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Syed Ibrahim | Creative Portfolio</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Hello! Welcome to my creative site 🚀");
+    }
+
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mouseover', () => {
+        card.style.background = '#ff9a9e';
+        card.style.color = '#fff';
+      });
+      card.addEventListener('mouseout', () => {
+        card.style.background = '#fff';
+        card.style.color = '#333';
+      });
+    });
+  </script>
+  <script src="13bapp.js"></script>
+</body>
+</html>
+c:\Users\raja\OneDrive\Desktop\Amazon Webpage Clone
